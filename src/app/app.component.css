@@ -1,0 +1,46 @@
+.result{
+    background-color: rgb(39, 235, 39);
+    width:50px;
+    height:30px;
+}
+button{
+    background-color: #7a7d7d;
+    width:50px;
+    height:30px;
+}
+h1{
+    color:rgb(237, 237, 239);
+    border: #646768;
+
+}
+.clr
+{
+    background-color: red;
+}
+b{
+    color:white
+}
+h2,h3{
+    color:white
+}
+select{
+    height:20px;
+    width:60px;
+}
+img{
+    height:70px;
+    width: 100px;
+}
+.container
+{
+    align-items: center;
+    background-color: rgb(45, 44, 44);
+}
+.container {
+    margin: auto;
+    width: 20%;
+    border: 5px solid #4f5050;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+  }

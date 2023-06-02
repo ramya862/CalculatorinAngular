@@ -1,0 +1,27 @@
+<div class="container">
+<h1>Calculator</h1>
+<img [src]="img">
+<h3>Number1</h3>
+<input type="number" placehoder="enter number1" [(ngModel)]=num1>
+<h3>Number2</h3>
+<input type="number" placehoder="enter number1" [(ngModel)]=num2><br><br>
+<!--<button (click)="add(num1,num2)">Add</button>
+<select>
+  <option value="add" (click)="add(num1,num2)">Add</option>
+  <option value="sub" (click)="sub(num1,num2)">Sub</option>
+  <option value="div"(click)="div(num1,num2)">Div</option>
+  <option value="mul"(click)="mul(num1,num2)">Mul</option>
+</select><br><br>-->
+<button (click)="add(num1,num2)"><b>+</b></button>
+<button (click)="sub(num1,num2)"><b>-</b></button>
+<button (click)="mul(num1,num2)"><b>*</b></button><br><br>
+<button (click)="div(num1,num2)"><b>/</b></button>
+<button (click)="rem(num1,num2)"><b>%</b></button>
+<button (click)="pow(num1,num2)"><b>^</b></button>
+
+<br><br>
+<button class="clr" (click)="clear()">CLR</button>
+<button class="result" (click)="result()"> <b>Result</b></button>
+<h1 *ngIf="clicked">{{x}}</h1><br>
+
+</div>
